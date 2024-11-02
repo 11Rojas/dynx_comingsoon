@@ -105,7 +105,7 @@ export default function App() {
         />
       )}
       <h1 className="absolute text-white text-3xl font-bold text-center px-4 md:text-6xl lg:text-7xl z-10">
-        Prepare for the DYNX Token & Next-Gen Web3 Game
+        Prepare for the SKOUR Token & Next-Gen Web3 Games
       </h1>
     </div>
   );
