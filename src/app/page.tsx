@@ -95,43 +95,44 @@ export default function App() {
     [],
   );
 
-  return (
-    <div className="relative flex items-center justify-center h-screen overflow-hidden bg-[#0d47a1]">
-      {init && (
-        <Particles
-          id="tsparticles"
-          particlesLoaded={particlesLoaded}
-          options={options}
-        />
-      )}
-      <div className="absolute text-center z-10">
-        <h1 className="text-white text-3xl font-bold px-4 md:text-6xl lg:text-7xl">
-          Prepare for the SKOUR Token & Next-Gen Web3 Games
-        </h1>
-        <div className="mt-8 flex flex-col md:flex-row justify-center space-x-4">
-          <a
-             target="_blank"
-            href="https://t.me/profitgateway0"
-            className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300"
-          >
-            Telegram
-          </a>
-          <a
-             target="_blank"
-            href="https://x.com/Profitgateway_"
-            className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300"
-          >
-            X (Twitter)
-          </a>
-          <a
-            target="_blank"
-            href="https://docs.google.com/document/d/e/2PACX-1vRMk_BxrGsQ8beectPNZ6ujiTc-DLoLjU9_fGDKQdRkP8ye-k85bqph9Kz5EQQ5EfEHQY9iaxa1sFeL/pub"
-            className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300"
-          >
-            Whitepaper
-          </a>
-        </div>
+return (
+  <div className="relative flex items-center justify-center h-screen overflow-hidden bg-[#0d47a1]">
+    {init && (
+      <Particles
+        id="tsparticles"
+        particlesLoaded={particlesLoaded}
+        options={options}
+      />
+    )}
+    <div className="absolute text-center z-10">
+      <h1 className="text-white text-3xl font-bold px-4 md:text-6xl lg:text-7xl">
+        Prepare for the SKOUR Token & Next-Gen Web3 Games
+      </h1>
+      <div className="mt-8 flex flex-col md:flex-row justify-center gap-4">
+        <a
+          target="_blank"
+          href="https://t.me/profitgateway0"
+          className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300 max-w-xs w-full mx-2"
+        >
+          Telegram
+        </a>
+        <a
+          target="_blank"
+          href="https://x.com/Profitgateway_"
+          className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300 max-w-xs w-full mx-2"
+        >
+          X (Twitter)
+        </a>
+        <a
+          target="_blank"
+          href="https://docs.google.com/document/d/e/2PACX-1vRMk_BxrGsQ8beectPNZ6ujiTc-DLoLjU9_fGDKQdRkP8ye-k85bqph9Kz5EQQ5EfEHQY9iaxa1sFeL/pub"
+          className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300 max-w-xs w-full mx-2"
+        >
+          Whitepaper
+        </a>
       </div>
     </div>
-  );
+  </div>
+);
+
 }
