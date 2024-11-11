@@ -108,7 +108,7 @@ return (
       <h1 className="text-white text-3xl font-bold px-4 md:text-6xl lg:text-7xl">
         Prepare for the SKOUR Token & Next-Gen Web3 Games
       </h1>
-      <div className="mt-8 flex flex-col md:flex-row justify-center gap-4">
+      <div className="mt-8 flex flex-col md:flex-row justify-center items-center gap-4">
         <a
           target="_blank"
           href="https://t.me/profitgateway0"
