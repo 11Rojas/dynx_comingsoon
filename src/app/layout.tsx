@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Dynarix Coming Soon...",
+  title: "Profitgateway",
   description: "Future game web3",
 };
 
