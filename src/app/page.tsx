@@ -110,18 +110,21 @@ export default function App() {
         </h1>
         <div className="mt-8 flex flex-row justify-center space-x-4">
           <a
+             target="_blank"
             href="https://t.me/profitgateway0"
             className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300"
           >
             Telegram
           </a>
           <a
+             target="_blank"
             href="https://x.com/Profitgateway_"
             className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300"
           >
             X (Twitter)
           </a>
           <a
+            target="_blank"
             href="https://docs.google.com/document/d/e/2PACX-1vRMk_BxrGsQ8beectPNZ6ujiTc-DLoLjU9_fGDKQdRkP8ye-k85bqph9Kz5EQQ5EfEHQY9iaxa1sFeL/pub"
             className="bg-blue-500 text-white font-semibold py-2 px-6 rounded-lg hover:bg-blue-600 transition duration-300"
           >
